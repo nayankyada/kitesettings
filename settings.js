@@ -1,18 +1,22 @@
+
+
 const data = [
     {
         key: "tradingview.IntervalWidget.intervals",
-        value: JSON.stringify(["75", "125", "3M", "6M", "12M"])
+        value: JSON.stringify(["25", "75", "125", "3M", "6M", "12M"])
     },
     {
         key: "tradingview.IntervalWidget.quicks",
-        value: JSON.stringify(["1D", "1W", "1M", "15", "125", "75", "3M", "6M"])
+        value: JSON.stringify(["1D", "1W", "1M", "5", "25", "15", "125", "75", "3M", "6M"])
     },
     {
         key: "_tv_drawingTemplates",
         value: JSON.stringify(
             {
                 "LineToolParallelChannel": {
+                    "5": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":5,\"hours\":false,\"hoursFrom\":1,\"hoursTo\":24,\"days\":false,\"daysFrom\":1,\"daysTo\":366,\"weeks\":false,\"weeksFrom\":1,\"weeksTo\":52,\"months\":false,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"5\"}",
                     "15": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":15,\"hours\":false,\"hoursFrom\":1,\"hoursTo\":24,\"days\":false,\"daysFrom\":1,\"daysTo\":366,\"weeks\":false,\"weeksFrom\":1,\"weeksTo\":52,\"months\":false,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"15\"}",
+                    "25": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":25,\"hours\":false,\"hoursFrom\":1,\"hoursTo\":24,\"days\":false,\"daysFrom\":1,\"daysTo\":366,\"weeks\":false,\"weeksFrom\":1,\"weeksTo\":52,\"months\":false,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"25\"}",
                     "75": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":59,\"hours\":true,\"hoursFrom\":1,\"hoursTo\":1,\"days\":false,\"daysFrom\":1,\"daysTo\":366,\"weeks\":false,\"weeksFrom\":1,\"weeksTo\":52,\"months\":false,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"75\"}",
                     "125": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":59,\"hours\":true,\"hoursFrom\":1,\"hoursTo\":2,\"days\":false,\"daysFrom\":1,\"daysTo\":366,\"weeks\":false,\"weeksFrom\":1,\"weeksTo\":52,\"months\":false,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"125\"}",
                     "Y": "{\"intervalsVisibilities\":{\"ticks\":true,\"seconds\":true,\"secondsFrom\":1,\"secondsTo\":59,\"minutes\":true,\"minutesFrom\":1,\"minutesTo\":59,\"hours\":true,\"hoursFrom\":1,\"hoursTo\":24,\"days\":true,\"daysFrom\":1,\"daysTo\":366,\"weeks\":true,\"weeksFrom\":1,\"weeksTo\":52,\"months\":true,\"monthsFrom\":1,\"monthsTo\":12,\"ranges\":false},\"level1\":{\"visible\":false,\"coeff\":-0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level2\":{\"visible\":true,\"coeff\":0,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level3\":{\"visible\":false,\"coeff\":0.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level4\":{\"visible\":false,\"coeff\":0.5,\"lineStyle\":2,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level5\":{\"visible\":false,\"coeff\":0.75,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level6\":{\"visible\":true,\"coeff\":1,\"lineStyle\":1,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"level7\":{\"visible\":false,\"coeff\":1.25,\"lineStyle\":0,\"lineWidth\":1,\"color\":\"rgba(0, 0, 0, 1)\"},\"extendLeft\":false,\"extendRight\":false,\"fillBackground\":true,\"transparency\":20,\"labelVisible\":true,\"labelHorzAlign\":\"left\",\"labelVertAlign\":\"bottom\",\"labelFontSize\":10,\"labelBold\":true,\"labelItalic\":false,\"version\":2,\"labelTextColor\":\"rgba(0, 0, 0, 1)\",\"backgroundColor\":\"rgba(76, 175, 80, 0.08)\",\"labelText\":\"Y\"}",
@@ -164,6 +168,7 @@ const data = [
                 "daysFrom": 1,
                 "daysTo": 1,
                 "weeks": false,
+
                 "weeksFrom": 1,
                 "weeksTo": 52,
                 "months": false,
@@ -171,6 +176,50 @@ const data = [
                 "monthsTo": 12,
                 "ranges": false
             }
+        })
+    },
+    {
+        key: "tradingview.linetoolparallelchannel",
+        value: JSON.stringify({
+            "intervalsVisibilities": {
+                "daysTo": 1,
+                "weeks": false,
+                "months": false,
+                "ranges": false
+            },
+            "level2": {
+                "lineStyle": 1,
+                "lineWidth": 1,
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "level4": {
+                "visible": false,
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "level6": {
+                "lineStyle": 1,
+                "lineWidth": 1,
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "transparency": 20,
+            "labelVisible": true,
+            "labelFontSize": 10,
+            "labelBold": true,
+            "version": 2,
+            "level1": {
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "level3": {
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "level5": {
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "level7": {
+                "color": "rgba(0, 0, 0, 1)"
+            },
+            "labelTextColor": "rgba(0, 0, 0, 1)",
+            "backgroundColor": "rgba(76, 175, 80, 0.08)"
         })
     }
 
