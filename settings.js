@@ -7,7 +7,7 @@ const data = [
     },
     {
         key: "tradingview.IntervalWidget.quicks",
-        value: JSON.stringify(["1D", "1W", "1M", "5", "25", "15", "125", "75", "3M", "6M"])
+        value: JSON.stringify(["1D", "1W", "1M", "5", "25", "15", "125", "75", "3M", "6M", "12M"])
     },
     {
         key: "_tv_drawingTemplates",
